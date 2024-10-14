@@ -92,7 +92,7 @@ h1 {
 }
 
 .input-row {
-  display: flex; /* Makes the container a flexbox */
-  gap: 10px; /* Adds space between the select and input elements */
-  align-items: center; /* Vertically aligns the items in the center */
+  display: flex;
+  gap: 10px;
+  align-items: center; 
 }
