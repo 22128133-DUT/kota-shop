@@ -6,7 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  background: linear-gradient(135deg, #00965f, #ffffff);
 }
 
 .main-container {
@@ -38,9 +38,11 @@ body {
 }
 
 h1 {
-  color: #ff7e5f;
+  font-family: 'Montserrat', sans-serif;
+  color: #00965f;
   text-align: center;
   margin-bottom: 20px;
+  text-shadow: 1px 1px 0px #1e1e1e;
 }
 
 .input {
@@ -53,7 +55,7 @@ h1 {
 
 .btn {
   padding: 10px;
-  background: #ff7e5f;
+  background: #00965f;
   color: white;
   border: none;
   border-radius: 4px;
@@ -61,7 +63,7 @@ h1 {
 }
 
 .btn:hover {
-  background: #feb47b;
+  background: #005636;
 }
 
 .inventory-item {
@@ -87,4 +89,10 @@ h1 {
 
 .inventory-item button {
   margin-top: 10px;
+}
+
+.input-row {
+  display: flex; /* Makes the container a flexbox */
+  gap: 10px; /* Adds space between the select and input elements */
+  align-items: center; /* Vertically aligns the items in the center */
 }

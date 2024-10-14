@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         name: itemName,
         quantity: itemQuantity,
         comment: itemComment,
-        dateAdded: new Date().toISOString().split('T'),
+        dateAdded: new Date().toISOString().split('T')[0],
         image: `images/${itemName.toLowerCase()}.jpg`
       };
 
