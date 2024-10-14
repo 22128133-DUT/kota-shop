@@ -26,14 +26,13 @@
           <button class="btn w-1/3 ml-2" onclick="sortInventory()">Sort</button>
         </div>
         <form id="itemForm">
-          <input id="itemDropdown" list="itemOptions" placeholder="Select or type item" class="input mb-4">
-          <datalist id="itemOptions">
-            <option value="Bun">
-            <option value="Polony">
-            <option value="Cheese">
-            <option value="Chips">
-            <option value="Vienna">
-          </datalist>
+          <select id="itemDropdown" class="input mb-2">
+            <option value="Bun">Bun</option>
+            <option value="Polony">Polony</option>
+            <option value="Cheese">Cheese</option>
+            <option value="Chips">Chips</option>
+            <option value="Vienna">Vienna</option>
+          </select>
           <input id="itemQuantity" type="number" placeholder="Quantity" required class="input">
           <input id="itemComment" type="text" placeholder="Comment" class="input">
           <button type="submit" class="btn">Add Item</button>
